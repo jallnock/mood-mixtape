@@ -1,7 +1,6 @@
-// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Callback from "./pages/Callback"; // ✅ This uses your existing file
+import Callback from "./pages/Callback";
 
 function App() {
   return (
